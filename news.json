@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-11-13",
+    "category": "Talk",
+    "text": "I presented Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints at the Princeton–NYU–Columbia Joint Student Seminar.",
+    "links": [
+      {
+        "text": "Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints",
+        "url": "https://arxiv.org/pdf/2611.08743"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "category": "Talk",
+    "text": "I presented Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints in a mini-symposium at the 2026 INFORMS Conference on Financial Engineering and Fintech.",
+    "links": [
+      {
+        "text": "Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints",
+        "url": "https://arxiv.org/pdf/2611.08743"
+      },
+      {
+        "text": "2026 INFORMS Conference on Financial Engineering and Fintech",
+        "url": "https://www.stevens.edu/craft/2026-informs-conference-on-financial-engineering-and-fintech"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "category": "Preprint",
+    "text": "Our new paper, Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints, is now available on arXiv.",
+    "url": "https://arxiv.org/pdf/2611.08743",
+    "linkText": "Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints"
+  }
+]
