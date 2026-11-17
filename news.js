@@ -2,9 +2,15 @@
   "use strict";
 
   const source = new URL("news.json", document.currentScript?.src || document.baseURI);
-  const formatter = new Intl.DateTimeFormat("en-US", {
-    month: "2-digit",
-    year: "2-digit",
+  const fullDateFormatter = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC"
+  });
+  const monthFormatter = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    year: "numeric",
     timeZone: "UTC"
   });
 
@@ -41,6 +47,7 @@
     const date = document.createElement("time");
     date.className = "activity-date";
     date.dateTime = entry.date;
+    const formatter = entry.date.length === 10 ? fullDateFormatter : monthFormatter;
     date.textContent = `${formatter.format(entry.parsedDate)}:`;
 
     const body = document.createElement("span");
